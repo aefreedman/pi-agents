@@ -1,0 +1,27 @@
+{
+  "name": "@aefree/pi-agents",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "description": "Pi agent package with reusable subagent definitions.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aefreedman/pi-agents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aefreedman/pi-agents/issues"
+  },
+  "homepage": "https://github.com/aefreedman/pi-agents#readme"
+}
