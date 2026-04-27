@@ -1,33 +1,40 @@
 # Pi Agents
 
-Personal agent package for `pi-subagents`.
+Reusable agent definitions for Pi's `pi-subagents` package.
 
-Current contents:
+## Contents
+
 - `scout` - bounded repository reconnaissance for low-complexity discovery and scope narrowing
 
 ## How it works
 
-Pi does not natively discover package `agents/` directories.
-This package ships a tiny extension that registers its local `agents/` folder with the `pi-subagents` package-agent registry at runtime.
+Pi does not natively discover package `agents/` directories. This package ships a small extension that registers its local `agents/` folder with the `pi-subagents` package-agent registry at runtime.
 
-That keeps the canonical agent definitions as Markdown files while making them discoverable from installed packages.
+That keeps canonical agent definitions as Markdown files while making them discoverable from installed packages.
 
 ## Requirements
 
-- `pi-subagents` must be installed in the same Pi environment.
+- Pi Coding Agent
+- `@aefree/pi-subagents` installed in the same Pi environment
 
 ## Install
+
+From GitHub:
+
+```bash
+pi install git:git@github.com:aefreedman/pi-agents.git
+```
 
 Local development install:
 
 ```bash
-pi install "<path-to-pi-agents>"
+pi install <path-to-pi-agents>
 ```
 
 Project-local install:
 
 ```bash
-pi install -l "<path-to-pi-agents>"
+pi install -l <path-to-pi-agents>
 ```
 
 ## Package layout
