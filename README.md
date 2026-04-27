@@ -1,6 +1,6 @@
 # Pi Agents
 
-Reusable agent definitions for Pi's `pi-subagents` package.
+Reusable agent definitions for Pi's [`pi-subagents`](https://github.com/aefreedman/pi-subagents) package.
 
 ## Contents
 
@@ -8,14 +8,14 @@ Reusable agent definitions for Pi's `pi-subagents` package.
 
 ## How it works
 
-Pi does not natively discover package `agents/` directories. This package ships a small extension that registers its local `agents/` folder with the `pi-subagents` package-agent registry at runtime.
+Pi does not natively discover package `agents/` directories. This package ships a small extension that registers its local `agents/` folder with the [`pi-subagents`](https://github.com/aefreedman/pi-subagents) package-agent registry at runtime.
 
 That keeps canonical agent definitions as Markdown files while making them discoverable from installed packages.
 
 ## Requirements
 
 - Pi Coding Agent
-- `@aefree/pi-subagents` installed in the same Pi environment
+- [`@aefree/pi-subagents`](https://github.com/aefreedman/pi-subagents) installed in the same Pi environment
 
 ## Install
 
