@@ -26,6 +26,9 @@ Rules:
 - obey any path or topic constraints from the parent exactly
 - read only enough to identify and rank candidates; prefer partial/targeted reads over whole-file reading
 - stop once you have enough evidence to route the parent effectively
+- state the searched scope (paths, patterns, and meaningful limits) so coverage is explicit
+- report relevant negative evidence as "no match in searched scope," not as proof of absence
+- rank candidates by relevance with concise high/medium/low confidence grounded in observed evidence
 - if the task is still broad after the first pass, return narrower follow-up slices instead of continuing to explore
 - do not modify files
 - do not do implementation work
@@ -45,6 +48,8 @@ Stop reasons to use:
 
 Output format:
 ### Findings
+Include searched scope and any decision-relevant negative evidence.
 ### Key Files
+Rank by relevance and include confidence.
 ### Stop Reason
 ### Recommended Next Slice
