@@ -2,7 +2,7 @@
 name: scout
 description: Bounded repository reconnaissance for low-complexity discovery tasks. Use to locate likely files, rank candidates, and propose the next slice without deep synthesis.
 tools: read, grep, find, ls
-model: openai-codex/gpt-5.3-codex-spark
+model: openai-codex/gpt-5.6-luna
 class: research
 output_format: markdown_sections
 required_sections: Findings, Key Files, Stop Reason, Recommended Next Slice
